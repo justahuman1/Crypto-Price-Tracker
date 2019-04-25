@@ -3,11 +3,10 @@ var currencies = {
 	"USDT": {"shortName": "$", "longName": "Tether Dollar", "showChartButton": false},
 	"BTC": {"shortName": "BTC", "longName": "Bitcoin Core", "marketCapKey": "bitcoin", "showChartButton": true, "compareTo": ["USDT"], "color": "#F4911F"},
 	"ETH": {"shortName": "ETH", "longName": "Ethereum", "marketCapKey": "ethereum", "showChartButton": true, "compareTo": ["USDT"], "color": "#6187A6"},
-	"BCH": {"shortName": "BCH", "longName": "Bitcoin Cash", "marketCapKey": "bitcoin-cash", "showChartButton": true, "compareTo": ["USDT"], "color": "#4CC947"},
+	"BAT": {"shortName": "BAT", "longName": "Basic Attention Token", "marketCapKey": "basicattentiontoken", "showChartButton": true, "compareTo": ["USDT"], "color": "#4CC947"},
 	"XRP": {"shortName": "XRP", "longName": "Ripple", "marketCapKey": "ripple", "showChartButton": true, "color": "#102B3E", "compareTo": ["USDT"]},
 	"LTC": {"shortName": "LTC", "longName": "Litecoin", "marketCapKey": "litecoin", "showChartButton": true, "compareTo": ["USDT"], "color": "#88CBF5"},
 	"XMR": {"shortName": "XMR", "longName": "Monero", "marketCapKey": "monero", "showChartButton": true, "compareTo": ["USDT"], "color": "#E05600"}
-	// "NANO": {"shortName": "Nano", "longName": "Nano", "marketCapKey": "nano", "showChartButton": true, "compareTo": ["USDT", "BTC"], "color": "#6187A6"}
 };
 var ranges = {
 	"1d": 1,
