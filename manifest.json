@@ -1,25 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Crypto Price Tracker",
+   "name": "BTC-Now!",
   "version": "0.4.7",
-  "description": "Crypto Prices",
-//"content_security_policy": "script-src 'self' https://ssl.google-analytics.com/ga.js https://example.cc; object-src 'self'",
+  "description": "Quick window to see real-time crypto movements. Includes ETH, XRP, and several other minor coins!",
   "browser_action": {
       "default_icon": "btc.png"
-      // "default_popup": "popup.html"
       },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": true
-  },
-  "permissions": [
-    "activeTab", 
-    "tabs",
-    "storage",
-    "unlimitedStorage",
-    "webNavigation",
-    "*://*/*",
-    "browsingData",
-    "<all_urls>"
-  ]
+    "scripts": ["background.js"]
+  }
 }
