@@ -46,7 +46,7 @@ and navigate to the cloned folder.
 1. The extension will now be synced to your account!
 
 
-### Updates (0.4.7)
+### Update Changes (0.4.7)
 
 - Added 'Total Market Cap' area graph
 - Added XMR
