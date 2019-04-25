@@ -32,7 +32,7 @@ Click to run the extension and see the real-time price of Bitcoin!
 
 ## How to pack extension (provides Google Sync and network-optimizations)
 
-1. Follow steps 1-3 of the installation set-up.
+1. Follow steps 1-4 of the installation set-up.
 
 1. After developer mode is enabled, a button labeleb 'Pack Extension' will pop up above your extension. Click this button 
 and navigate to the cloned folder.
